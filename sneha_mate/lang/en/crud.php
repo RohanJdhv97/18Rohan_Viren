@@ -1,0 +1,170 @@
+<?php
+
+return [
+    'common' => [
+        'actions' => 'Actions',
+        'create' => 'Create',
+        'edit' => 'Edit',
+        'update' => 'Update',
+        'new' => 'New',
+        'cancel' => 'Cancel',
+        'attach' => 'Attach',
+        'detach' => 'Detach',
+        'save' => 'Save',
+        'delete' => 'Delete',
+        'delete_selected' => 'Delete selected',
+        'search' => 'Search...',
+        'back' => 'Back to Index',
+        'are_you_sure' => 'Are you sure?',
+        'no_items_found' => 'No items found',
+        'created' => 'Successfully created',
+        'saved' => 'Saved successfully',
+        'removed' => 'Successfully removed',
+    ],
+
+    'users' => [
+        'name' => 'Users',
+        'index_title' => 'Users List',
+        'new_title' => 'New User',
+        'create_title' => 'Create User',
+        'edit_title' => 'Edit User',
+        'show_title' => 'Show User',
+        'inputs' => [
+            'name' => 'Name',
+            'email' => 'Email',
+            'password' => 'Password',
+        ],
+    ],
+
+    'discloser_and_suppots' => [
+        'name' => 'Discloser And Suppots',
+        'index_title' => 'DiscloserAndSuppots List',
+        'new_title' => 'New Discloser and suppot',
+        'create_title' => 'Create DiscloserAndSuppot',
+        'edit_title' => 'Edit DiscloserAndSuppot',
+        'show_title' => 'Show DiscloserAndSuppot',
+        'inputs' => [
+            'share_about_yourself' => 'Share About Yourself',
+            'kind_of_support' => 'Kind Of Support',
+            'disclosing_sharing_status' => 'Disclosing Sharing Status',
+            'user_id' => 'User',
+        ],
+    ],
+
+    'all_education' => [
+        'name' => 'All Education',
+        'index_title' => 'AllEducation List',
+        'new_title' => 'New Education',
+        'create_title' => 'Create Education',
+        'edit_title' => 'Edit Education',
+        'show_title' => 'Show Education',
+        'inputs' => [
+            'current_qualification' => 'Current Qualification',
+            'orphan_status' => 'Orphan Status',
+            'future_education' => 'Future Education',
+            'desired_field_of_study' => 'Desired Field Of Study',
+            'dropout_status' => 'Dropout Status',
+            'user_id' => 'User',
+        ],
+    ],
+
+    'all_health' => [
+        'name' => 'All Health',
+        'index_title' => 'AllHealth List',
+        'new_title' => 'New Health',
+        'create_title' => 'Create Health',
+        'edit_title' => 'Edit Health',
+        'show_title' => 'Show Health',
+        'inputs' => [
+            'enough_medicines' => 'Enough Medicines',
+            'days_meds_missed' => 'Days Meds Missed',
+            'cd4_count' => 'Cd4 Count',
+            'cd4_count_num' => 'Cd4 Count Num',
+            'viral_load_count' => 'Viral Load Count',
+            'viral_count_num' => 'Viral Count Num',
+            'fallen_sick' => 'Fallen Sick',
+            'share_health' => 'Share Health',
+            'user_id' => 'User',
+        ],
+    ],
+
+    'livelyhood_and_job_searches' => [
+        'name' => 'Livelyhood And Job Searches',
+        'index_title' => 'LivelyhoodAndJobSearches List',
+        'new_title' => 'New Livelyhood and job search',
+        'create_title' => 'Create LivelyhoodAndJobSearch',
+        'edit_title' => 'Edit LivelyhoodAndJobSearch',
+        'show_title' => 'Show LivelyhoodAndJobSearch',
+        'inputs' => [
+            'livelihood_training_program' => 'Livelihood Training Program',
+            'sibling_job' => 'Sibling Job',
+            'travel_to_art_center_program' => 'Travel To Art Center Program',
+            'user_id' => 'User',
+        ],
+    ],
+
+    'perar_education_pers_dvpmnts' => [
+        'name' => 'Perar Education Pers Dvpmnts',
+        'index_title' => 'PerarEducationPersDvpmnts List',
+        'new_title' => 'New Perar education pers dvpmnt',
+        'create_title' => 'Create PerarEducationPersDvpmnt',
+        'edit_title' => 'Edit PerarEducationPersDvpmnt',
+        'show_title' => 'Show PerarEducationPersDvpmnt',
+        'inputs' => [
+            'understanding_life_choices' => 'Understanding Life Choices',
+            'qualities_for_pe' => 'Qualities For Pe',
+            'focus_for_independent_And_sustainable_life' =>
+                'Focus For Independent And Sustainable Life',
+            'pe_help_future' => 'Pe Help Future',
+            'user_id' => 'User',
+        ],
+    ],
+
+    'personal_infos' => [
+        'name' => 'Personal Infos',
+        'index_title' => 'PersonalInfos List',
+        'new_title' => 'New Personal info',
+        'create_title' => 'Create PersonalInfo',
+        'edit_title' => 'Edit PersonalInfo',
+        'show_title' => 'Show PersonalInfo',
+        'inputs' => [
+            'district' => 'District',
+            'gender' => 'Gender',
+            'age' => 'Age',
+            'user_id' => 'User',
+        ],
+    ],
+
+    'social_networks' => [
+        'name' => 'Social Networks',
+        'index_title' => 'SocialNetworks List',
+        'new_title' => 'New Social network',
+        'create_title' => 'Create SocialNetwork',
+        'edit_title' => 'Edit SocialNetwork',
+        'show_title' => 'Show SocialNetwork',
+        'inputs' => [
+            'tb_positive' => 'Tb Positive',
+            'hiv_friends' => 'Hiv Friends',
+            'friends_same_art' => 'Friends Same Art',
+            'where_met_friends' => 'Where Met Friends',
+            'attended_camp' => 'Attended Camp',
+            'friends_in_camp' => 'Friends In Camp',
+            'topics_of_discussion' => 'Topics Of Discussion',
+            'likes_in_camp' => 'Likes In Camp',
+        ],
+    ],
+
+    'tuberculoses' => [
+        'name' => 'Tuberculoses',
+        'index_title' => 'Tuberculoses List',
+        'new_title' => 'New Tuberculosis',
+        'create_title' => 'Create Tuberculosis',
+        'edit_title' => 'Edit Tuberculosis',
+        'show_title' => 'Show Tuberculosis',
+        'inputs' => [
+            'TB_symptoms' => 'Tb Symptoms',
+            'TB_positive' => 'Tb Positive',
+            'user_id' => 'User',
+        ],
+    ],
+];
